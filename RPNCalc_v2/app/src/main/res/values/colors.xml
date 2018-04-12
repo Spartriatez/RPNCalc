@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#81FF31</color>
+    <color name="backgroundColor">#515151</color>
+
+    <color name="LCDColor">#558811</color>
+
+    <!--standard-->
+    <color name="colorPrimary2">#3F51B5</color>
+    <color name="colorPrimaryDark2">#303F9F</color>
+    <color name="colorAccent2">#FF4081</color>
+    <color name="backgroundColor2">#FFFF</color>
+
+</resources>

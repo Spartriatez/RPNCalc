@@ -1,0 +1,100 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.armageddon.rpncalc_v2.RPNMainMenu">
+    <group
+        android:id="@+id/allMenu"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/undo"
+            android:title="Cofnij AC" />
+        <item
+            android:id="@+id/history"
+            android:title="Historia" />
+        <item
+            android:id="@+id/action_menu"
+            android:title="@string/action_menu">
+            <menu>
+                <group
+                    android:id="@+id/colorMenu"
+                    android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/color_mstandard"
+                        android:title="Standardowy" />
+                    <item
+                        android:id="@+id/color_dracula"
+                        android:title="Dracula" />
+                </group>
+            </menu>
+        </item>
+        <item
+            android:id="@+id/action_color"
+            android:title="Kolor LCD">
+            <menu>
+                <group
+                    android:id="@+id/LCDColor"
+                    android:checkableBehavior="single" >
+                    <item
+                        android:id="@+id/color_standard"
+                        android:title="Standard" />
+                    <item
+                        android:id="@+id/color_red"
+                        android:title="Czerwony" />
+                    <item
+                        android:id="@+id/color_blue"
+                        android:title="Niebieski" />
+                    <item
+                        android:id="@+id/color_black"
+                        android:title="Czarny" />
+                </group>
+            </menu>
+        </item>
+        <item
+            android:id="@+id/Letters"
+            android:title="Czcionka">
+            <menu>
+                <group
+                    android:id="@+id/LettersFont"
+                    android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/FontStandard"
+                        android:title="Standardowy" />
+                    <item
+                        android:id="@+id/lcd"
+                        android:title="7-segments LCD" />
+                    <item
+                        android:id="@+id/dots"
+                        android:title="Digital dots" />
+                </group>
+            </menu>
+        </item>
+        <item
+            android:id="@+id/rounds"
+            android:title="Zaokrąglaj">
+            <menu>
+                <group
+                    android:id="@+id/roudsAll"
+                    android:checkableBehavior="single">
+                    <item
+                        android:id="@+id/standardRound"
+                        android:title="Standard" />
+                    <item
+                        android:id="@+id/nullRound"
+                        android:title="0" />
+                    <item
+                        android:id="@+id/OneRound"
+                        android:title="1" />
+                    <item
+                        android:id="@+id/TwoRound"
+                        android:title="2" />
+                    <item
+                        android:id="@+id/FourRound"
+                        android:title="4" />
+                    <item
+                        android:id="@+id/TenRound"
+                        android:title="10" />
+                </group>
+            </menu>
+        </item>
+    </group>
+</menu>
