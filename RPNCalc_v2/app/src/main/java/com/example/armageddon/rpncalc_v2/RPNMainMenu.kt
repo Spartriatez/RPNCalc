@@ -695,6 +695,7 @@ class RPNMainMenu : AppCompatActivity() {
         checked_size_stack("Wykonano ENTER")
         printStack()
         sb.setLength(0)
+        minus=""
     }
     fun saveTemp(){
         val count=stack.count()
